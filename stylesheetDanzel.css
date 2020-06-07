@@ -1,0 +1,430 @@
+/*The comments are for me if you do not mind the there*/
+body{
+	font-family:"Helvetica Neue",sans-serif;/*Georgia(maybe)*/
+	
+	font-size:20px;
+	background-image:url("images/danzel1.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-attachment:fixed;
+}
+
+/*headings*/
+h2{
+	font-family:palatino,Georgia,Arial;
+}
+
+/*navigation*/
+.homeHeader nav ul{
+	list-style:none;
+}
+
+.homeHeader nav ul li{
+	display:inline;
+	margin-right:6px;/*space in between nav links*/
+	padding-right:10px;/*space between logo and nav links*/
+	margin-top:20px;
+	
+}
+
+nav a{
+	text-decoration:none;
+	color:#B6B5B5;
+	font-family: 'Noto Serif', serif;
+}
+.navigation{
+	height:70px;
+	width:100%;/**/
+	padding-top:5px;
+
+}
+/*the navigation decorations*/
+nav a:hover {
+  color:#ffff00;
+  border-bottom:1px solid #ffff00;
+}
+/*home header*/
+.homeHeader{
+	width:100%;/*main container 100%*/
+	margin:0 auto;
+	margin-top:8px;
+	border-bottom:1px dotted white;
+	
+	
+	/*border-style:dotted;
+	color:white;
+	border-width:1px;*/
+	
+}
+
+#headercontent{
+	width:80%;/*reduce the inner section*/
+	margin:0 auto;
+	
+	/*border-style:dotted;
+	color:white;
+	border-width:1px;*/
+}
+
+/*Styling Content inside header and footer are hear*/
+
+/*logo*/
+.logo{
+float:left;
+margin-right:60px;
+
+}
+
+/*welcome text*/
+.presentation{
+	width:1000px;
+	margin:0 auto;
+	color:white;
+	line-height:100px;
+	height:800px;
+	/*height:700px;*/
+	
+	
+	/*border-style:dotted;
+	color:white;
+	border-width:1px;*/
+	
+}
+
+.presentation p {
+color:white;
+text-align:center;
+font-size:60px;	
+opacity:0.7;
+
+
+}
+
+/*content*/
+.content{
+color:white;
+font-size:18px;	
+margin:0 auto;
+width:1000px;
+padding-top:1px;
+line-height:20px;
+margin:400px auto 0 auto;/*This gives the space from the header to the content*/
+/*background-color:rgba(0,5,30, 0.4);/*040436   (4,4,54,0.2)*/
+/*border-style:dotted;
+	border-color:white;
+	border-width:1px;
+	*/
+}
+
+/*images in biography page*/
+.youngdanzel{
+	float:right;
+	 margin:4px;
+}
+
+.danzeloldpic{
+ float:left;  /*for making the writing move around the picture just flaot the picture*/
+ margin:4px;
+}
+
+/*images in family page(pauletta washington)*/
+.pauletta1{
+	float:right;
+}
+.pauletta2{
+	float:left;
+	margin-right:7px;
+}
+.johndavid{
+	float:left;
+	margin-right:7px;
+}
+
+.johndavidfootball{
+	float:right;
+}
+
+.johndavidactor{
+	float:left;
+	margin-right:7px;
+}
+
+/*images in family page(olivia washington)*/
+.olivia1{
+	float:left;
+	margin-right:7px;
+}
+.olivia2{
+	float:right;
+	margin:6px;
+}
+/*images in family page(katia washington)*/
+.katiawashington1{
+	float:left;
+	margin-right:7px;
+}
+/*images in family page(malcolm washington)*/
+.malcomwashington{
+	float:left;
+	margin-right:7px;
+}
+.malcomwashington2{
+	float:right;
+}
+/*images in career page*/
+.danzel1{
+	float:left;
+	margin-right:5px;
+}
+
+.danzel2{
+	float:right;
+
+}
+.danzel3{
+	float:left;
+	margin-right:5px;
+}
+.danzel4{
+	margin-top:5px;
+	float:right;
+	
+}
+/*For the quotes section*/
+.qoutes {
+	line-height:35px;
+	text-align:center;/*putting allthe content in a container and putting the text-align:center moves every content to the center*/
+}
+/*Section container for john david*/
+.johnCover{
+	float:left;
+}
+/*Award section*/
+.awardlist{
+	text-align:center;
+}
+/*Movies section*/
+.moviesection{
+	text-align:center;
+}
+
+/*Modeling page*/
+.modelPhotos{
+	font-size:17px;
+	font-family:Georgia;
+	font-style:italic;
+	overflow:hidden;/*The two pictures were not in the content so this made it enter the content.*/
+}
+.danSuit1{
+	float:left;
+	margin-right:10px;
+	margin-top:0px;
+	width:40rem;
+	
+	/*border-style:dotted;
+	color:white;
+	border-width:1px;*/
+	
+}
+
+.danSuit2{
+	float:right;
+	margin-top:2px;
+	margin-bottom:30px;
+	margin-right:10px;
+	width:20rem;
+	
+	/*border-style:dotted;
+	color:white;
+	border-width:1px;*/
+}
+.danSuit3{
+	float:right;
+	margin-right:10px;
+	margin-top:10px;
+	width:20rem;
+	margin-bottom:10px;
+}
+.danSuit4{
+	margin:20px;
+	width:60rem;
+	
+	/*border-style:dotted;
+	color:white;
+	border-width:1px;*/
+}
+.danSuit5{
+	float:left;
+	width:40rem;
+	
+	/*border-style:dotted;
+	border-color:white;
+	border-width:1px;*/
+	
+}
+.danSuit6{
+	float:right;
+	margin:10px;
+}
+/*Media page sections*/
+.advise{
+	font-family:georgian,Arial;
+	font-size:15px;
+	text-align:center;
+}
+
+.advice1{
+	width:260px;
+	float:left;
+	line-height:3px;
+	height:230px;
+	
+	/*border-style:dotted;
+	border-color:white;
+	border-width:1px;*/
+}
+
+.advice2{
+	float:left;
+	width:345px;
+	margin-left:25px;
+	margin-right:5px;
+	line-height:3px;
+	height:230px;
+	
+	/*border-style:dotted;
+	border-color:white;
+	border-width:1px;*/
+}
+
+.advice3{
+	float:right;
+	width:320px;
+	margin:7px;
+	line-height:3px;
+	height:220px;
+	
+	/*border-style:dotted;
+	border-color:white;
+	border-width:1px;*/
+}
+
+.advice4{
+	float:left;
+	width:310px;
+	margin:5px;
+	line-height:3px;
+	height:250px;
+	
+	/*border-style:dotted;
+	border-color:white;
+	border-width:1px;*/
+}
+.containTwoSections{
+	width:670px;
+	height:275px;
+	float:right;
+	
+	/*border-style:dotted;
+	border-color:white;
+	border-width:1px;*/
+}
+.advice5{
+	float:left;
+	width:300px;
+	height:200px;
+	line-height:3px;
+	margin:2px;
+	
+	/*border-style:dotted;
+	border-color:white;
+	border-width:1px;*/
+}
+
+.advice6{
+	float:right;
+	width:350px;
+	height:275px;
+	line-height:3px;
+	margin-left:10px;
+	
+	/*border-style:dotted;
+	border-color:white;
+	border-width:1px;*/
+}
+.imageInAdvice6{
+	
+	margin-left:50px;
+}
+.advice7{
+	width:340px;
+	height:310px;
+	float:left;
+	
+	/*border-style:dotted;
+	border-color:white;
+	border-width:1px*/
+}
+
+.advice8{
+	width:340px;
+	height:310px;
+	float:left;
+	margin-left:10px;
+	
+	/*border-style:dotted;
+	border-color:white;
+	border-width:1px*/
+}
+
+.advice9{
+	width:270px;
+	height:240px;
+	float:right;
+	margin-left:20px;
+	
+	/*border-style:dotted;
+	border-color:white;
+	border-width:1px;*/
+}
+/*bibliography in about me page*/
+.bibliographycontent  p a{
+ 	text-decoration:none;
+	color:blue;
+}
+
+/*home footer */
+.mainfooter{
+	margin:0 auto;
+	width:100%;
+	clear:both;
+	height:70px;
+	border-top:1px dotted white;
+
+}
+
+#footercontent{
+	width:80%;/*reduce the inner section*/
+	margin:0 auto;
+}
+.navsection {
+	float:left;
+}
+.navsection ul{
+	list-style:none;
+}
+
+/*Facebook and Instagram photos*/
+
+.media{
+	float:right;
+	width:75px;
+	height:30px;
+	margin-top:10px;
+	
+	/*border-style:dotted;
+	border-color:white;
+	border-width:1px;*/
+}
+
